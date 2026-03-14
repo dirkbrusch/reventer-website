@@ -70,8 +70,9 @@ button{font:inherit;cursor:pointer;background:none;border:none}
 
 /* Logo */
 .nav-logo{display:flex;align-items:center;gap:12px}
-.nav-logo-mark{font-family:var(--ff-body);font-weight:700;font-size:.85rem;color:var(--gold);background:rgba(193,163,85,.12);width:40px;height:40px;display:grid;place-items:center;border-radius:10px;letter-spacing:.06em;transition:all .35s var(--ease)}
-#navbar:not(.scrolled) .nav-logo-mark{background:rgba(193,163,85,.15);color:var(--gold-light)}
+.nav-logo-img{height:28px;width:auto;transition:all .35s var(--ease)}
+#navbar.scrolled .nav-logo-img{filter:brightness(.15)}
+#navbar:not(.scrolled) .nav-logo-img{filter:brightness(0) invert(1);opacity:.92}
 .nav-logo-line{width:1px;height:24px;background:var(--stone-100);transition:background .35s var(--ease)}
 #navbar:not(.scrolled) .nav-logo-line{background:rgba(255,255,255,.15)}
 .nav-logo-text{font-family:var(--ff-body);font-size:1rem;font-weight:600;color:var(--navy);transition:color .35s var(--ease);letter-spacing:.01em}
@@ -431,17 +432,6 @@ button{font:inherit;cursor:pointer;background:none;border:none}
   .exp-card-num{font-size:2.5rem}
 }
 
-/* ================================================================
-   HERO LOGO
-   ================================================================ */
-.hero-logo{margin-bottom:24px}
-.hero-logo-img{max-width:260px;height:auto;filter:brightness(0) invert(1);opacity:.92}
-@media(max-width:1080px){
-  .hero-logo{display:flex;justify-content:center}
-}
-@media(max-width:768px){
-  .hero-logo-img{max-width:200px}
-}
 
 /* ================================================================
    FOOTER LINKS
