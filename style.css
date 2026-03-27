@@ -162,7 +162,7 @@ button{font:inherit;cursor:pointer;background:none;border:none}
 .stats{padding:0;position:relative;z-index:3;margin-top:-48px}
 .stats .container{background:var(--white);border-radius:var(--radius-lg);box-shadow:var(--shadow-l);border:1px solid var(--stone-50);padding:52px 48px}
 
-.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;text-align:center}
+.stats-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:32px;text-align:center}
 .stat{position:relative}
 .stat:not(:last-child)::after{content:'';position:absolute;right:0;top:10%;height:80%;width:1px;background:var(--stone-100)}
 .stat-num{font-family:var(--ff-display);font-size:3.6rem;font-weight:800;color:var(--gold-dark);line-height:1;letter-spacing:-.03em}
@@ -223,11 +223,68 @@ button{font:inherit;cursor:pointer;background:none;border:none}
 .hf-card p{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.75}
 
 /* ================================================================
+   KI-VORTEIL SECTION
+   ================================================================ */
+.ki-section{padding:120px 0;background:linear-gradient(165deg,var(--navy) 0%,#0D1B30 40%,var(--navy-light) 100%);position:relative;overflow:hidden}
+.ki-section::before{content:'';position:absolute;inset:0;background:
+  radial-gradient(ellipse at 70% 30%,rgba(193,163,85,.08) 0%,transparent 55%),
+  radial-gradient(ellipse at 20% 80%,rgba(26,58,92,.3) 0%,transparent 50%);
+  pointer-events:none}
+
+.ki-hero-block{display:grid;grid-template-columns:1.3fr .7fr;gap:64px;align-items:center;margin-bottom:72px;position:relative;z-index:1}
+.ki-hero-lead{font-size:1.15rem;color:rgba(255,255,255,.55);line-height:1.85;max-width:580px}
+
+/* Orb visual */
+.ki-hero-visual{display:flex;align-items:center;justify-content:center}
+.ki-orb{position:relative;width:220px;height:220px;display:grid;place-items:center}
+.ki-orb-ring{position:absolute;border-radius:50%;border:1.5px solid rgba(193,163,85,.15);animation:kiOrbit 8s linear infinite}
+.ki-orb-ring--1{width:100%;height:100%;animation-duration:12s}
+.ki-orb-ring--2{width:72%;height:72%;animation-duration:8s;animation-direction:reverse;border-color:rgba(193,163,85,.25)}
+.ki-orb-ring--3{width:44%;height:44%;animation-duration:5s;border-color:rgba(193,163,85,.35)}
+.ki-orb-core{font-family:var(--ff-display);font-size:2rem;font-weight:800;color:var(--gold);text-shadow:0 0 40px rgba(193,163,85,.4);z-index:2}
+@keyframes kiOrbit{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+/* KI Cards */
+.ki-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:56px;position:relative;z-index:1}
+
+.ki-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius-lg);padding:40px 32px;transition:all .45s var(--ease);position:relative;overflow:hidden}
+.ki-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold-light));transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+.ki-card:hover{background:rgba(255,255,255,.08);border-color:rgba(193,163,85,.25);transform:translateY(-6px)}
+.ki-card:hover::before{transform:scaleX(1)}
+
+.ki-card-icon{width:56px;height:56px;border-radius:14px;background:rgba(193,163,85,.1);display:grid;place-items:center;color:var(--gold);margin-bottom:24px}
+.ki-card h3{font-family:var(--ff-body);font-size:1.15rem;font-weight:700;color:var(--gold-light);margin-bottom:12px}
+.ki-card p{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.8}
+
+/* KI Statement */
+.ki-statement{text-align:center;max-width:760px;margin:0 auto;padding:40px 48px;background:rgba(193,163,85,.06);border:1px solid rgba(193,163,85,.15);border-radius:var(--radius-lg);position:relative;z-index:1}
+.ki-statement-text{font-family:var(--ff-display);font-size:1.3rem;font-style:italic;color:var(--gold-light);line-height:1.65}
+.ki-statement-text em{color:var(--gold);font-style:normal;font-weight:700}
+
+/* KI accent on expertise card */
+.exp-card--ki{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-mid) 100%);border-color:rgba(193,163,85,.2)}
+.exp-card--ki h3{color:var(--gold-light)!important}
+.exp-card--ki p{color:rgba(255,255,255,.55)}
+.exp-card--ki .exp-card-num{color:rgba(193,163,85,.15)}
+.exp-card--ki .exp-card-icon{background:rgba(193,163,85,.1);border-color:rgba(193,163,85,.2);color:var(--gold)}
+.exp-card--ki:hover .exp-card-icon{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.exp-card--ki:hover .exp-card-num{color:rgba(193,163,85,.3)}
+.exp-card--ki:hover{border-color:var(--gold)}
+
+/* KI accent on method card */
+.method--ki{background:linear-gradient(160deg,var(--navy),var(--navy-mid));border-color:rgba(193,163,85,.2)}
+.method--ki h3{color:var(--gold-light)!important}
+.method--ki p{color:rgba(255,255,255,.55)}
+.method--ki .method-label{color:var(--gold)}
+.method--ki:hover{border-color:var(--gold)}
+
+/* ================================================================
    EXPERTISE
    ================================================================ */
 .expertise{padding:110px 0;background:var(--white)}
 
 .expertise-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.expertise-grid .exp-card:last-child{grid-column:2/3}
 
 .exp-card{position:relative;background:var(--off-white);border:1px solid var(--stone-50);border-radius:var(--radius-lg);padding:44px 32px 40px;transition:all .4s var(--ease);overflow:hidden}
 .exp-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
@@ -249,7 +306,7 @@ button{font:inherit;cursor:pointer;background:none;border:none}
    ================================================================ */
 .methods{padding:100px 0;background:var(--off-white)}
 
-.methods-strip{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.methods-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
 
 .method{background:var(--white);border:1px solid var(--stone-100);border-radius:var(--radius);padding:36px 28px;transition:all .4s var(--ease);position:relative}
 .method::after{content:'';position:absolute;bottom:0;left:24px;right:24px;height:2px;background:var(--gold);transform:scaleX(0);transition:transform .5s var(--ease)}
@@ -376,6 +433,12 @@ button{font:inherit;cursor:pointer;background:none;border:none}
   .methods-strip{grid-template-columns:repeat(2,1fr)}
   .human-factor-cards{grid-template-columns:1fr}
   .human-factor{padding:48px 32px}
+  .ki-hero-block{grid-template-columns:1fr;text-align:center}
+  .ki-hero-lead{margin:0 auto}
+  .ki-orb{width:160px;height:160px}
+  .ki-cards{grid-template-columns:1fr}
+  .ki-statement{padding:32px 24px}
+  .stats-grid{grid-template-columns:repeat(3,1fr)}
   .contact-inner{grid-template-columns:1fr;gap:40px;padding:48px 36px}
 }
 
@@ -396,10 +459,14 @@ button{font:inherit;cursor:pointer;background:none;border:none}
 
   .stats .container{padding:36px 24px}
   .stats-grid{grid-template-columns:repeat(2,1fr);gap:20px}
+  .ki-section{padding:80px 0}
+  .ki-hero-block{gap:32px}
+  .ki-orb{width:120px;height:120px}
+  .ki-orb-core{font-size:1.4rem}
   .stat:not(:last-child)::after{display:none}
   .stat-num{font-size:2.6rem}
 
-  .about,.expertise,.methods,.strengths,.career,.contact{padding:80px 0}
+  .about,.expertise,.methods,.strengths,.career,.contact,.ki-section{padding:80px 0}
 
   .expertise-grid{grid-template-columns:1fr}
   .methods-strip{grid-template-columns:1fr}
