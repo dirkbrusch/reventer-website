@@ -136,9 +136,13 @@ button{font:inherit;cursor:pointer;background:none;border:none}
 .hero-title span{display:block}
 .hero-title em{font-style:italic;background:linear-gradient(135deg,var(--gold) 0%,var(--gold-light) 50%,var(--gold) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 
-.hero-sub{font-size:1.1rem;color:rgba(255,255,255,.55);line-height:1.8;max-width:500px;margin-bottom:44px}
+.hero-sub{font-size:1.1rem;color:rgba(255,255,255,.55);line-height:1.8;max-width:500px;margin-bottom:36px}
 
-.hero-actions{display:flex;gap:14px;flex-wrap:wrap}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:28px}
+
+/* Trust strip — Social Proof (Regel 6) */
+.hero-trust{display:flex;gap:24px;flex-wrap:wrap}
+.hero-trust span{font-size:.78rem;font-weight:500;color:rgba(255,255,255,.38);letter-spacing:.02em;white-space:nowrap}
 
 /* Portrait */
 .hero-portrait{display:flex;flex-direction:column;align-items:center;gap:20px}
@@ -427,6 +431,7 @@ button{font:inherit;cursor:pointer;background:none;border:none}
   .hero-sub{max-width:100%;margin-left:auto;margin-right:auto}
   .hero-actions{justify-content:center}
   .hero-label{justify-content:center}
+  .hero-trust{justify-content:center}
   .hero-portrait-frame{width:300px;height:380px;margin:0 auto}
   .about-grid{grid-template-columns:1fr;gap:40px}
   .expertise-grid{grid-template-columns:repeat(2,1fr)}
@@ -456,6 +461,8 @@ button{font:inherit;cursor:pointer;background:none;border:none}
   .hero-scroll{display:none}
   .hero-portrait-frame{width:240px;height:310px}
   .hero-title{font-size:clamp(2.2rem,8vw,3rem)}
+  .hero-trust{gap:12px;justify-content:center}
+  .hero-trust span{font-size:.72rem}
 
   .stats .container{padding:36px 24px}
   .stats-grid{grid-template-columns:repeat(2,1fr);gap:20px}
