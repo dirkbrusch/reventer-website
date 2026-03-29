@@ -27,82 +27,110 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "reventer business consultants",
-    "url": "https://reventer.de",
-    "description": "IT-Sourcing Beratung, IT-Compliance und KI-gestützte Prozessoptimierung im regulierten Umfeld. Senior-Berater Dirk Brusch verbindet 37 Jahre IT-Sourcing-Erfahrung mit Agentic AI.",
-    "founder": {
-      "@type": "Person",
-      "name": "Dirk Brusch",
-      "jobTitle": "Senior IT-Sourcing & Compliance Berater, KI-Pionier",
-      "description": "Freiberuflicher IT-Sourcing-Experte mit über 37 Jahren Erfahrung in der IT-Dienstleistungsbranche. Verbindet Sourcing-Strategie, IT-Compliance (MaRisk, BAIT, DORA) und Künstliche Intelligenz (Agentic AI) zu einem einzigartigen Beratungsansatz.",
-      "knowsAbout": [
-        "IT-Sourcing",
-        "IT-Sourcing-Strategie",
-        "IT-Compliance",
-        "MaRisk",
-        "BAIT",
-        "DORA",
-        "Auslagerungsmanagement",
-        "Künstliche Intelligenz",
-        "Agentic AI",
-        "IT-Vertragsmanagement",
-        "Transition Management",
-        "Provider Management",
-        "Verhandlungsführung",
-        "Öffentliche Vergaben",
-        "EVB-IT"
-      ],
-      "alumniOf": {
-        "@type": "CollegeOrUniversity",
-        "name": "TH Darmstadt"
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://reventer.de/#person",
+        "name": "Dirk Brusch",
+        "jobTitle": "Senior IT-Sourcing & Compliance Berater, KI-Pionier",
+        "description": "Freiberuflicher IT-Sourcing-Experte mit über 37 Jahren Erfahrung. Verbindet Sourcing-Strategie, IT-Compliance (MaRisk, BAIT, DORA) und Künstliche Intelligenz (Agentic AI) zu einem einzigartigen Beratungsansatz im regulierten Umfeld.",
+        "url": "https://reventer.de",
+        "image": "https://reventer.de/DBR.jpg",
+        "email": "dirk.brusch@reventer.de",
+        "knowsAbout": [
+          "IT-Sourcing", "IT-Sourcing-Strategie", "IT-Compliance",
+          "MaRisk", "BAIT", "DORA", "KWG 25b", "Auslagerungsmanagement",
+          "Künstliche Intelligenz", "Agentic AI", "Generative AI",
+          "IT-Vertragsmanagement", "EVB-IT", "Transition Management",
+          "Provider Management", "Verhandlungsführung", "Harvard-Konzept",
+          "Öffentliche Vergaben", "VgV", "UVgO"
+        ],
+        "knowsLanguage": ["de", "en"],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "TH Darmstadt"
+        },
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "degree",
+            "name": "Dipl.-Ing. Datentechnik"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "certificate",
+            "name": "Zertifizierter IBM Engineer"
+          }
+        ],
+        "worksFor": { "@id": "https://reventer.de/#organization" },
+        "sameAs": [
+          "https://www.linkedin.com/in/dirkbrusch"
+        ]
       },
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "degree",
-          "name": "Dipl.-Ing. Datentechnik"
-        }
-      ],
-      "sameAs": [
-        "https://www.linkedin.com/in/dirkbrusch"
-      ],
-      "url": "https://reventer.de",
-      "email": "dirk.brusch@reventer.de",
-      "worksFor": {
+      {
         "@type": "Organization",
-        "name": "reventer business consultants"
-      }
-    },
-    "areaServed": [
-      {
-        "@type": "Country",
-        "name": "Deutschland"
+        "@id": "https://reventer.de/#organization",
+        "name": "reventer business consultants",
+        "url": "https://reventer.de",
+        "founder": { "@id": "https://reventer.de/#person" },
+        "foundingDate": "2004",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Am Schäfersberg 16",
+          "addressLocality": "Niedernhausen",
+          "postalCode": "65527",
+          "addressRegion": "Hessen",
+          "addressCountry": "DE"
+        },
+        "areaServed": [
+          { "@type": "Country", "name": "Deutschland" },
+          { "@type": "Country", "name": "International" }
+        ]
       },
       {
-        "@type": "Country",
-        "name": "International"
+        "@type": "Service",
+        "@id": "https://reventer.de/#service-sourcing",
+        "name": "IT-Sourcing Beratung",
+        "description": "Strategisches IT-Sourcing von der Make-or-Buy-Analyse über Ausschreibung und Vertragsmanagement bis zum Provider Management. KI-gestützt für maximale Effizienz.",
+        "provider": { "@id": "https://reventer.de/#person" },
+        "serviceType": "IT-Sourcing Beratung",
+        "areaServed": { "@type": "Country", "name": "Deutschland" }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://reventer.de/#service-compliance",
+        "name": "IT-Compliance Beratung",
+        "description": "IT-Compliance im regulierten Bankenumfeld: Auslagerungsmanagement nach MaRisk, BAIT, DORA und KWG 25b. Vorbereitung regulatorischer Prüfungen.",
+        "provider": { "@id": "https://reventer.de/#person" },
+        "serviceType": "IT-Compliance Beratung"
+      },
+      {
+        "@type": "Service",
+        "@id": "https://reventer.de/#service-ki",
+        "name": "KI-gestützte Beratung",
+        "description": "Einsatz von Agentic AI für Dokumentenanalyse, Prozessautomatisierung und Qualitätssicherung im IT-Sourcing. Pionier im Bereich KI-gestützter Beratungsleistungen seit 2024.",
+        "provider": { "@id": "https://reventer.de/#person" },
+        "serviceType": "KI-gestützte Prozessberatung"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://reventer.de/#website",
+        "url": "https://reventer.de",
+        "name": "Dirk Brusch — Senior IT-Sourcing & Compliance Berater | KI-Pionier",
+        "publisher": { "@id": "https://reventer.de/#organization" },
+        "inLanguage": "de"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://reventer.de/#webpage",
+        "url": "https://reventer.de",
+        "name": "Dirk Brusch — Senior IT-Sourcing & Compliance Berater | KI-Pionier",
+        "isPartOf": { "@id": "https://reventer.de/#website" },
+        "about": { "@id": "https://reventer.de/#person" },
+        "dateModified": "2026-03-29",
+        "inLanguage": "de"
       }
-    ],
-    "serviceType": [
-      "IT-Sourcing Beratung",
-      "IT-Compliance Beratung",
-      "KI-gestützte Prozessberatung",
-      "Sourcing-Strategie",
-      "IT-Vertragsmanagement",
-      "Transition Management",
-      "Provider Management",
-      "Verhandlungsführung"
-    ],
-    "knowsLanguage": ["de", "en"],
-    "foundingDate": "2004",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Am Schäfersberg 16",
-      "addressLocality": "Niedernhausen",
-      "postalCode": "65527",
-      "addressCountry": "DE"
-    }
+    ]
   }
   </script>
 
@@ -110,6 +138,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" type="image/webp" href="DBR-hero.webp" media="(min-width: 769px)">
+  <link rel="preload" as="image" type="image/webp" href="DBR-hero-sm.webp" media="(max-width: 768px)">
 </head>
 <body>
 
@@ -138,6 +168,8 @@
       </div>
     </div>
   </nav>
+
+  <main>
 
   <!-- HERO -->
   <section id="hero" class="hero">
@@ -631,6 +663,8 @@
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">
