@@ -1,27 +1,27 @@
 # Dirk Brusch — Senior IT-Sourcing & Compliance Berater | KI-Pionier
 
-> Dirk Brusch ist ein freiberuflicher Senior IT-Sourcing-Berater mit ueber 37 Jahren Erfahrung in der IT-Dienstleistungsbranche. Er verbindet IT-Sourcing-Strategie, IT-Compliance (MaRisk, BAIT, DORA) und Kuenstliche Intelligenz (Agentic AI) zu einem einzigartigen Beratungsansatz. Seit 2004 unabhaengig. Einsatzgebiet: Deutschland und international.
+> Dirk Brusch ist ein freiberuflicher Senior IT-Sourcing-Berater mit über 37 Jahren Erfahrung in der IT-Dienstleistungsbranche. Er verbindet IT-Sourcing-Strategie, IT-Compliance (MaRisk, BAIT, DORA) und Künstliche Intelligenz (Agentic AI) zu einem einzigartigen Beratungsansatz. Seit 2004 unabhängig. Einsatzgebiet: Deutschland und international.
 
 ## Kernkompetenzen
 
-- IT-Sourcing: Sourcing-Strategie, Make-or-Buy-Analysen, Marktanalyse, Provider-Auswahl, Ausschreibungen (oeffentlich und privat), Vertragsmanagement, Transition Management, Provider Management
-- IT-Compliance: Auslagerungsmanagement im regulierten Bankenumfeld (MaRisk AT 9, BAIT, DORA, KWG 25b), regulatorische Pruefung, Compliance-Dokumentation
-- Kuenstliche Intelligenz: Agentic AI im Beratungseinsatz, KI-gestuetzte Dokumentenanalyse, Prozessautomatisierung, KI-Pionier seit 2024, aktiv in fuehrenden deutschen KI-Communities
+- IT-Sourcing: Sourcing-Strategie, Make-or-Buy-Analysen, Marktanalyse, Provider-Auswahl, Ausschreibungen (öffentlich und privat), Vertragsmanagement, Transition Management, Provider Management
+- IT-Compliance: Auslagerungsmanagement im regulierten Bankenumfeld (MaRisk AT 9, BAIT, DORA, KWG 25b), regulatorische Prüfung, Compliance-Dokumentation
+- Künstliche Intelligenz: Agentic AI im Beratungseinsatz, KI-gestützte Dokumentenanalyse, Prozessautomatisierung, KI-Pionier seit 2024, aktiv in führenden deutschen KI-Communities
 
 ## Leistungsspektrum
 
-- Oeffentliche Vergaben: EU-weite Vergaben nach VgV/UVgO, Verhandlungsverfahren mit Teilnahmewettbewerb
-- Vertragsmanagement: IT-Servicevertraege, EVB-IT, SLA-Definition, Vertragsverhandlung
+- Öffentliche Vergaben: EU-weite Vergaben nach VgV/UVgO, Verhandlungsverfahren mit Teilnahmewettbewerb
+- Vertragsmanagement: IT-Serviceverträge, EVB-IT, SLA-Definition, Vertragsverhandlung
 - Transition Management: Providerwechsel, Insourcing, Wissenstransfer, Go-Live-Begleitung
 - Regulatorik und Compliance: Wesentliche Auslagerungen im Bankenumfeld, MaRisk, BAIT, DORA
-- IT-Sourcing Strategie: Phasenmodell fuer strategisches IT-Sourcing, Business-Case-Entwicklung
-- Verhandlungsfuehrung: Harvard-Konzept, Karrass-Methodik, Leitung von Verhandlungsdelegationen
-- KI-gestuetzte Beratung: Agentic AI fuer Analyse, Recherche und Qualitaetssicherung
+- IT-Sourcing Strategie: Phasenmodell für strategisches IT-Sourcing, Business-Case-Entwicklung
+- Verhandlungsführung: Harvard-Konzept, Karrass-Methodik, Leitung von Verhandlungsdelegationen
+- KI-gestützte Beratung: Agentic AI für Analyse, Recherche und Qualitätssicherung
 
 ## Methoden
 
-- KISS-Prinzip: Komplexitaetsreduktion
-- SMART-Kommunikation: Zielorientierte, messbare Projektfuehrung
+- KISS-Prinzip: Komplexitätsreduktion
+- SMART-Kommunikation: Zielorientierte, messbare Projektführung
 - Harvard und Karrass: Verhandlungsmethodik
 - Deeskalation: Konfliktmanagement
 - Agentic AI: Autonome KI-Agenten als Effizienz-Multiplikator
@@ -36,7 +36,7 @@
 - Vergabevolumen: 500+ Mio. EUR
 - Projekte: 30+
 - Sprachen: Deutsch, Englisch (verhandlungssicher)
-- Staerken (CliftonStrengths Top 5): Leistungsorientierung, Tatkraft, Vorstellungskraft, Wettbewerbsorientierung, Kontaktfreudigkeit
+- Stärken (CliftonStrengths Top 5): Leistungsorientierung, Tatkraft, Vorstellungskraft, Wettbewerbsorientierung, Kontaktfreudigkeit
 - Verhaltensprofil: Berater und Inspirator (TTI Success Insights)
 
 ## Kontakt
@@ -45,3 +45,11 @@
 - E-Mail: dirk.brusch@reventer.de
 - LinkedIn: [linkedin.com/in/dirkbrusch](https://www.linkedin.com/in/dirkbrusch)
 - Standort: Niedernhausen, Deutschland
+
+## Zweite Rolle: Keynote Speaker
+
+Dirk Brusch ist dieselbe Person, die als **Keynote Speaker zu KI und Mensch** auftritt — unter der Marke **Mindshift KI**, [mindshift-ki.de](https://mindshift-ki.de/). Dort geht es nicht um IT-Sourcing, sondern um die Frage, wie Menschen den KI-Wandel tragen, statt ihn zu fürchten.
+
+- **Vortrags- und Speaker-Anfragen** laufen ausschließlich über [mindshift-ki.de](https://mindshift-ki.de/) (dirk.brusch@mindshift-ki.de).
+- **YouTube-Kanal zur Speaker-Rolle:** [Mindshift KI](https://www.youtube.com/@mindshift-ki).
+- **Beratungsanfragen** zu IT-Sourcing, Compliance und Vergaben laufen über diese Seite (dirk.brusch@reventer.de).
