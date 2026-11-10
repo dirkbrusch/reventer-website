@@ -127,61 +127,9 @@
     }, { passive: true });
   }
 
-  // ── COOKIE CONSENT ──────────────────────────────────────────────
-  var COOKIE_KEY = 'db_cookie_consent';
-  var banner = document.getElementById('cookie-banner');
-  var acceptAll = document.getElementById('cookie-accept-all');
-  var acceptNecessary = document.getElementById('cookie-accept-necessary');
-  var settingsLink = document.getElementById('cookie-settings-link');
-
-  function getCookieConsent() {
-    try { return localStorage.getItem(COOKIE_KEY); } catch (e) { return null; }
-  }
-
-  function setCookieConsent(value) {
-    try { localStorage.setItem(COOKIE_KEY, value); } catch (e) { /* silent */ }
-  }
-
-  function showBanner() {
-    if (banner) {
-      banner.setAttribute('aria-hidden', 'false');
-      banner.classList.add('visible');
-    }
-  }
-
-  function hideBanner() {
-    if (banner) {
-      banner.setAttribute('aria-hidden', 'true');
-      banner.classList.remove('visible');
-    }
-  }
-
-  // Show banner if no consent stored
-  if (!getCookieConsent()) {
-    setTimeout(showBanner, 800);
-  }
-
-  if (acceptAll) {
-    acceptAll.addEventListener('click', function () {
-      setCookieConsent('all');
-      hideBanner();
-    });
-  }
-
-  if (acceptNecessary) {
-    acceptNecessary.addEventListener('click', function () {
-      setCookieConsent('necessary');
-      hideBanner();
-    });
-  }
-
-  // Re-open cookie settings from footer link
-  if (settingsLink) {
-    settingsLink.addEventListener('click', function (e) {
-      e.preventDefault();
-      try { localStorage.removeItem(COOKIE_KEY); } catch (err) { /* silent */ }
-      showBanner();
-    });
-  }
+  // ── ALTLAST AUFRÄUMEN ───────────────────────────────────────────
+  // Bis 11/2026 speicherte ein Cookie-Banner die Auswahl im localStorage.
+  // Die Website lädt keine Drittdienste mehr; den alten Eintrag entfernen.
+  try { localStorage.removeItem('db_cookie_consent'); } catch (e) { /* silent */ }
 
 })();
