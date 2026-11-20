@@ -14,16 +14,18 @@
   <meta property="og:url" content="https://reventer.de/">
   <meta property="og:locale" content="de_DE">
   <meta property="og:site_name" content="reventer business consultants">
-  <meta property="og:image" content="https://reventer.de/img/portrait-dbr.jpg">
-  <meta property="og:image:width" content="1000">
-  <meta property="og:image:height" content="1500">
-  <meta property="og:image:alt" content="Porträt Dirk Brusch">
+  <meta property="og:image" content="https://reventer.de/img/share-reventer.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Dirk Brusch, reventer business consultants: Wo Vergaberecht auf Finanzaufsicht trifft.">
   <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="img/favicon-180.png">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#FAF8F4">
   <link rel="preload" href="fonts/playfairdisplay-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" as="image" imagesrcset="img/portrait-dbr-sm.webp 560w, img/portrait-dbr.webp 1000w" imagesizes="(max-width:820px) 90vw, 420px" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="image" imagesrcset="img/portrait-dbr-sm.webp 560w, img/portrait-dbr.webp 1000w" imagesizes="(max-width:820px) 200px, 400px" type="image/webp" fetchpriority="high">
   <link rel="stylesheet" href="reventer.css">
   <script type="application/ld+json">
   {
@@ -39,7 +41,8 @@
         "knowsAbout": ["Öffentliche Vergabe", "GWB", "VgV", "IT-Ausschreibung", "Auslagerungsmanagement", "MaRisk", "DORA", "Transition Management", "Projektportfoliomanagement", "IT-Controlling"],
         "worksFor": {"@id": "https://reventer.de/#org"},
         "url": "https://reventer.de/",
-        "image": "https://reventer.de/img/portrait-dbr.jpg"
+        "image": "https://reventer.de/img/portrait-dbr.jpg",
+        "sameAs": ["https://www.linkedin.com/in/dirkbrusch"]
       },
       {
         "@type": "ProfessionalService",
@@ -50,7 +53,28 @@
         "founder": {"@id": "https://reventer.de/#person"},
         "areaServed": "DE",
         "address": {"@type": "PostalAddress", "addressLocality": "Niedernhausen", "addressRegion": "Hessen", "addressCountry": "DE"},
-        "email": "dirk.brusch@reventer.de"
+        "email": "dirk.brusch@reventer.de",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Eine Strecke in fünf Etappen",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "@id": "https://reventer.de/#etappe-1", "name": "Zuschnitt und Wirtschaftlichkeit", "description": "Marktsondierung, Losbildung und Verfahrenswahl, Kostenmodell je Los, Business Case und Zeitplan.", "provider": {"@id": "https://reventer.de/#org"}}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "@id": "https://reventer.de/#etappe-2", "name": "Vergabe und Ausschreibung", "description": "Leistungsbeschreibung, Eignungs- und Zuschlagskriterien, Bewertung, Aufklärung und Verhandlung, Vergabeakte; fachliche Beiträge bei Rüge und Nachprüfung.", "provider": {"@id": "https://reventer.de/#org"}}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "@id": "https://reventer.de/#etappe-3", "name": "Vertrag und Aufsicht", "description": "Leistungsscheine, Service Level, EVB-IT; wesentliche Auslagerung nach MaRisk, Maßnahmen nach § 44 KWG, DORA-Anforderungen an IKT-Verträge.", "provider": {"@id": "https://reventer.de/#org"}}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "@id": "https://reventer.de/#etappe-4", "name": "Transition", "description": "Providerwechsel oder Insourcing, Datenmigration, ITSM-Strukturen, Inbetriebnahme.", "provider": {"@id": "https://reventer.de/#org"}}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "@id": "https://reventer.de/#etappe-5", "name": "Steuerung", "description": "Vertrag und Dienstleister, Projekt- und Portfoliosteuerung (PMO), Status-, Budget- und Risikoreporting, Hochrechnung und Kennzahlen.", "provider": {"@id": "https://reventer.de/#org"}}}
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://reventer.de/#ki-fragen",
+        "about": "Einsatz von KI in Bewertungen",
+        "mainEntity": [
+          {"@type": "Question", "name": "Bleiben vertrauliche Unterlagen im Haus?", "acceptedAnswer": {"@type": "Answer", "text": "KI-Werkzeuge setze ich ausschließlich in der KI-Umgebung ein, die der Auftraggeber bereitstellt und freigibt. Gibt es keine, prüfe ich ohne KI."}},
+          {"@type": "Question", "name": "Wer trifft die Entscheidung?", "acceptedAnswer": {"@type": "Answer", "text": "Der Auftraggeber. Die Bewertung ist von Menschen geschrieben und nachvollziehbar dokumentiert. Die KI ist ein Prüfhilfsmittel wie eine Checkliste."}},
+          {"@type": "Question", "name": "Und wenn die KI sich irrt?", "acceptedAnswer": {"@type": "Answer", "text": "Deshalb prüfe ich jede Einschätzung selbst am Antrag, bevor sie in die Bewertung eingeht."}}
+        ]
       }
     ]
   }
@@ -81,7 +105,7 @@
     <div>
       <div class="kicker">IT-Vergaben, Ausschreibungen und Auslagerungen <span class="o">im regulierten Finanzsektor</span></div>
       <h1 id="h1">Wo Vergaberecht auf Finanzaufsicht trifft.</h1>
-      <p class="claim"><span class="dot"></span>Ich höre beim Zuschlag nicht auf.</p>
+      <p class="claim">Ich höre beim Zuschlag nicht auf.</p>
       <p class="lead">Wenn ein Unternehmen der Finanzbranche seine IT neu vergibt oder auslagert, begleite ich das Verfahren fachlich von der Marktsondierung bis in die Steuerung des neuen Vertrags. Die Unterlagen, die ich dafür erstelle, bilden vergaberechtliche Anforderungen (GWB,&nbsp;VgV) ebenso ab wie aufsichtsrechtliche Vorgaben von MaRisk bis DORA. Die rechtliche Prüfung liegt bei der Kanzlei des Auftraggebers.</p>
       <div class="ctas">
         <a class="btn btn-primary" href="#kontakt"><span class="dot"></span>Erstgespräch anfragen</a>
@@ -91,7 +115,7 @@
     </div>
     <figure class="portrait">
       <picture>
-        <source srcset="img/portrait-dbr-sm.webp 560w, img/portrait-dbr.webp 1000w" sizes="(max-width:820px) 90vw, 420px" type="image/webp">
+        <source srcset="img/portrait-dbr-sm.webp 560w, img/portrait-dbr.webp 1000w" sizes="(max-width:820px) 200px, 400px" type="image/webp">
         <img src="img/portrait-dbr.jpg" alt="Dirk Brusch im dunkelblauen Anzug" width="1000" height="1500" fetchpriority="high">
       </picture>
       <figcaption><b>Dirk Brusch</b>Dipl.-Ing. Datentechnik (TH Darmstadt) · seit 1988 in der IT · Rhein-Main, vor Ort und remote</figcaption>
@@ -99,10 +123,10 @@
   </div>
   <div class="facts">
     <div class="wrap">
-      <div><div class="n">1988</div><p>seit diesem Jahr in der IT: Systems Engineering, Vertrieb, Geschäftsführung, Beratung</p></div>
+      <div><div class="n">30 <small>Mandate</small></div><p>alle einzeln in der <a href="#historie" class="to-hist">Projekthistorie</a> unten, mit Zeitraum, Branche und Schwerpunkten</p></div>
+      <div><div class="n">21 <small>Bankmandate</small></div><p>von den 30; seit 2009 überwiegend im öffentlich-rechtlichen Bankensektor tätig</p></div>
       <div><div class="n">2004</div><p>seit diesem Jahr unabhängiger Berater, ohne Bindung an Anbieter oder Produkte</p></div>
-      <div><div class="n">2009</div><p>seit diesem Jahr überwiegend für Institute des öffentlich-rechtlichen Bankensektors</p></div>
-      <div><div class="n">30 <small>Mandate</small></div><p>als unabhängiger Berater, alle einzeln in der <a href="#historie" class="to-hist">Projekthistorie</a> unten</p></div>
+      <div><div class="n">1988</div><p>seit diesem Jahr in der IT: Systems Engineering, Vertrieb, Geschäftsführung, Beratung</p></div>
     </div>
   </div>
 </section>
@@ -118,7 +142,7 @@
     <div>
       <p class="lead">Am schärfsten zeigt sich das, wenn eine Landes- oder Förderbank ihren IT-Betrieb neu vergibt. Das Vergaberecht verlangt ein Verfahren, das einer Nachprüfung standhält. Die Aufsicht verlangt Auslagerungsverträge, die MaRisk und, wo anwendbar, DORA genügen.</p>
       <p class="lead">Vergaberechtler kennen meist das eine, Auslagerungsspezialisten das andere. Und beides endet nicht mit dem Zuschlag, denn der Betrieb muss weiterlaufen, während der Dienstleister wechselt. Deshalb höre ich beim Zuschlag nicht auf.</p>
-      <p class="ins" style="margin-top:28px"><b>Für Versicherer und Finanzdienstleister ohne Vergaberecht</b> bleibt die Strecke dieselbe: wettbewerbliche Ausschreibung statt Vergabeverfahren, VAG und MaGo statt KWG und MaRisk, dieselben DORA-Vertragsinhalte. Ausschreibungen ohne Vergaberecht kenne ich von beiden Seiten: als Berater eines internationalen Automobilkonzerns und auf Anbieterseite für einen IT-Dienstleister.</p>
+      <p class="ins"><b>Für Versicherer und Finanzdienstleister ohne Vergaberecht</b> bleibt die Strecke dieselbe: wettbewerbliche Ausschreibung statt Vergabeverfahren, VAG und MaGo statt KWG und MaRisk, dieselben DORA-Vertragsinhalte. Ausschreibungen ohne Vergaberecht kenne ich von beiden Seiten: als Berater eines internationalen Automobilkonzerns und auf Anbieterseite für einen IT-Dienstleister.</p>
     </div>
   </div>
 </section>
@@ -129,19 +153,19 @@
     <div class="kicker">01 · Leistung</div>
     <div class="rule"></div>
     <h2 id="h-strecke">Eine Strecke. Vom ersten Marktgespräch bis in die Steuerung des neuen Vertrags.</h2>
-    <div class="stages">
-      <div class="stage"><div class="bar"></div><div class="no">01</div><h3>Zuschnitt und Wirtschaftlichkeit</h3>
+    <div class="stages" id="etappen">
+      <div class="stage" id="etappe-1"><div class="bar"></div><div class="no">01</div><h3>Zuschnitt und Wirtschaftlichkeit</h3>
         <ul><li>Marktsondierung</li><li>Losbildung, Verfahrenswahl</li><li>Kostenmodell je Los</li><li>Business Case, Zeitplan</li></ul></div>
-      <div class="stage"><div class="bar"></div><div class="no">02</div><h3>Vergabe und Ausschreibung</h3>
+      <div class="stage" id="etappe-2"><div class="bar"></div><div class="no">02</div><h3>Vergabe und Ausschreibung</h3>
         <ul><li>Leistungsbeschreibung</li><li>Eignungs- und Zuschlagskriterien</li><li>Bewertung, Aufklärung, Verhandlung</li><li>Vergabeakte; fachliche Beiträge bei Rüge und Nachprüfung</li></ul></div>
-      <div class="stage"><div class="bar"></div><div class="no">03</div><h3>Vertrag und Aufsicht</h3>
+      <div class="stage" id="etappe-3"><div class="bar"></div><div class="no">03</div><h3>Vertrag und Aufsicht</h3>
         <ul><li>Leistungsscheine, Service Level, EVB-IT</li><li>Wesentliche Auslagerung nach MaRisk</li><li>Maßnahmen nach §&nbsp;44&nbsp;KWG</li><li>DORA-Anforderungen an IKT-Verträge</li></ul></div>
-      <div class="stage after"><div class="bar"></div><div class="no">04</div><h3>Transition</h3>
+      <div class="stage after" id="etappe-4"><div class="bar"></div><div class="no">04</div><h3>Transition</h3>
         <ul><li>Providerwechsel oder Insourcing</li><li>Datenmigration</li><li>ITSM-Strukturen</li><li>Inbetriebnahme</li></ul></div>
-      <div class="stage after"><div class="bar"></div><div class="no">05</div><h3>Steuerung</h3>
+      <div class="stage after" id="etappe-5"><div class="bar"></div><div class="no">05</div><h3>Steuerung</h3>
         <ul><li>Vertrag und Dienstleister</li><li>Projekt- und Portfoliosteuerung (PMO)</li><li>Status-, Budget- und Risikoreporting</li><li>Hochrechnung, Kennzahlen</li></ul></div>
     </div>
-    <p class="legend"><span class="dot"></span>Die orange markierten Etappen 04 und 05 liegen nach dem Zuschlag. Sie können an jeder Etappe einsteigen.</p>
+    <p class="legend">Die orange markierten Etappen 04 und 05 liegen nach dem Zuschlag. Sie können an jeder Etappe einsteigen.</p>
 
     <div class="when">
       <div><h3>Wann Sie mich holen</h3><p class="sub">Typische Anlässe aus den Mandaten der letzten Jahre.</p></div>
@@ -163,7 +187,7 @@
     <div class="kicker">02 · Mandate</div>
     <div class="rule"></div>
     <h2 id="h-mandate">Was ich zuletzt getan habe.</h2>
-    <p class="lead" style="margin-top:16px">Vier Situationen aus drei Mandaten der Jahre 2024 bis 2026, anonymisiert aus Gründen der Vertraulichkeit. Einzelheiten im Gespräch, soweit sie zulässig sind.</p>
+    <p class="lead intro">Vier Situationen aus drei Mandaten der Jahre 2024 bis 2026, anonymisiert aus Gründen der Vertraulichkeit. Einzelheiten im Gespräch, soweit sie zulässig sind.</p>
     <div class="cases">
       <article class="case"><div class="tag">Neuvergabe · 2024–2026</div><h3>Mehrteilige Neuvergabe mit Service-Integrator</h3>
         <dl><dt>Lage</dt><dd>Ein öffentlich-rechtliches Institut vergibt die IT eines ganzen Geschäftsbereichs neu, verteilt auf mehrere Dienstleister.</dd>
@@ -182,7 +206,7 @@
         <dt>Aufgabe</dt><dd>Das Verfahren aktenfest halten und den Betrieb überbrücken.</dd>
         <dt>Beitrag</dt><dd>Fachliche Zuarbeit zur Vergabeakte und zu den Schriftsätzen der Kanzlei, Bindefristen, Interimsvergaben.</dd></dl></article>
     </div>
-    <p class="also"><span class="dot"></span><span><b>Auch ohne Vergaberecht:</b> wettbewerbliche Ausschreibungen für sieben IT-Services eines Automobilkonzerns (2006) und Angebotsarbeit für einen Automobilkunden in Deutschland, den USA und Mexiko (2019–2020).</span></p>
+    <p class="also"><span><b>Auch ohne Vergaberecht:</b> wettbewerbliche Ausschreibungen für sieben IT-Services eines Automobilkonzerns (2006) und Angebotsarbeit für einen Automobilkunden in Deutschland, den USA und Mexiko (2019–2020).</span></p>
 
     <div class="numbers">
       <div class="kicker">Größenordnungen seit 2001, jeweils mit Jahr</div>
@@ -210,8 +234,8 @@
 
     <div class="ki">
       <div>
-        <h3 class="serif" style="font-size:26px">So setze ich KI in Bewertungen ein</h3>
-        <ol style="margin-top:18px">
+        <h3 class="serif ki-title">So setze ich KI in Bewertungen ein</h3>
+        <ol>
           <li><b>Vollständig statt Stichprobe.</b> Bei Teilnahmewettbewerben mit vielen Anträgen prüfen parallel arbeitende KI-Agenten jedes Kriterium bei jedem Bewerber und erstellen eine erste Einschätzung.</li>
           <li><b>Gleiche Strenge für alle.</b> Ein zweiter Prüfschritt gleicht Punkte und Begründungen über alle Bewerber ab. Genau an diesen Stellen setzen Rügen an.</li>
           <li><b>Der Mensch bewertet.</b> Jede Einschätzung lese, korrigiere und begründe ich selbst. Die KI liefert Vorarbeit, keine Entscheidung.</li>
@@ -230,7 +254,6 @@
     <div class="frame">
       <div><b>Keine Rechtsdienstleistung</b>Ich arbeite fachlich. Rechtliche Bewertung und Formulierung liegen bei der Kanzlei des Auftraggebers.</div>
       <div><b>Vertraulichkeit</b>Keine Kundennamen nach außen, auch hier nicht. Unterlagen bleiben in der Umgebung des Auftraggebers.</div>
-      <div><b>Erster Auftrag</b>Auch eine begrenzte Aufgabe ist möglich, etwa eine Zweitmeinung zur Bewertungsmatrix vor dem Versand.</div>
     </div>
   </div>
 </section>
@@ -261,7 +284,7 @@
 
     <details class="history" id="historie">
       <summary>Projekthistorie: alle 30 Mandate seit 2004 <span class="plus" aria-hidden="true">+</span></summary>
-      <div style="overflow-x:auto">
+      <div class="table-scroll">
       <table class="ph" role="table">
         <thead role="rowgroup"><tr role="row"><th role="columnheader">Zeitraum</th><th role="columnheader">Branche</th><th role="columnheader">Mandat</th><th role="columnheader">Schwerpunkte</th></tr></thead>
         <tbody role="rowgroup">
@@ -315,6 +338,7 @@
       <div class="rule"></div>
       <h2 id="h-kontakt">Sie bereiten eine Vergabe oder Auslagerung vor oder sind bereits im Verfahren?</h2>
       <p class="lead">Erzählen Sie mir kurz, wo Sie stehen. Ich melde mich persönlich und sage Ihnen im Erstgespräch, an welcher Etappe ich Ihnen am meisten helfe.</p>
+      <p class="first-job"><b>Erster Auftrag</b>Auch eine begrenzte Aufgabe ist möglich, etwa eine Zweitmeinung zur Bewertungsmatrix vor dem Versand.</p>
       <div class="ctas">
         <a class="btn btn-primary" href="mailto:dirk.brusch@reventer.de?subject=Erstgespr%C3%A4ch">Erstgespräch per E-Mail anfragen</a>
         <a class="btn btn-ghost" href="Profil-Dirk-Brusch.pdf" download>Profil als PDF</a>
@@ -322,6 +346,7 @@
     </div>
     <dl>
       <dt>E-Mail</dt><dd><a href="mailto:dirk.brusch@reventer.de">dirk.brusch@reventer.de</a></dd>
+      <dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/dirkbrusch" rel="me noopener" target="_blank">linkedin.com/in/dirkbrusch</a></dd>
       <dt>Standort</dt><dd>Niedernhausen, Rhein-Main · vor Ort und remote</dd>
     </dl>
   </div>
@@ -330,7 +355,7 @@
 
 <footer class="site-foot">
   <div class="wrap">
-    <img src="img/reventer-logo-light.png" alt="reventer business consultants" width="420" height="95">
+    <img src="img/reventer-logo-light.png" alt="reventer business consultants" width="420" height="95" loading="lazy" decoding="async">
     <div class="foot-meta"><span>© 2026 Dirk Brusch · reventer business consultants</span><span class="foot-links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span></div>
   </div>
 </footer>
@@ -346,6 +371,20 @@
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&nav.classList.contains('open')){closeNav();btn.focus()}});
   document.addEventListener('click',function(e){if(nav.classList.contains('open')&&!nav.contains(e.target)&&!btn.contains(e.target)){closeNav()}});
   var hist=document.getElementById('historie');document.querySelectorAll('a[href="#historie"]').forEach(function(a){a.addEventListener('click',function(){hist.open=true})});
+  function openHist(){if(location.hash==='#historie'&&!hist.open){hist.open=true;hist.scrollIntoView()}}
+  window.addEventListener('hashchange',openHist);openHist();
+  if(!('IntersectionObserver' in window))return;
+  /* Navigation: aktuelle Sektion markieren */
+  var links={};nav.querySelectorAll('a[href^="#"]:not(.btn)').forEach(function(a){links[a.getAttribute('href').slice(1)]=a});
+  var spy=new IntersectionObserver(function(es){es.forEach(function(e){var a=links[e.target.id];if(!a)return;if(e.isIntersecting){Object.keys(links).forEach(function(k){links[k].removeAttribute('aria-current')});a.setAttribute('aria-current','location')}else{a.removeAttribute('aria-current')}})},{rootMargin:'-45% 0px -50% 0px'});
+  Object.keys(links).forEach(function(id){var s=document.getElementById(id);if(s)spy.observe(s)});
+  /* Etappen 04 und 05: einmal in Orange einzeichnen, wenn die Strecke erreicht wird */
+  var st=document.getElementById('etappen');
+  if(st&&!window.matchMedia('(prefers-reduced-motion: reduce)').matches&&st.getBoundingClientRect().top>window.innerHeight){
+    st.classList.add('anim');
+    var io=new IntersectionObserver(function(es){if(es[0].isIntersecting){st.classList.add('go');io.disconnect()}},{threshold:.5});
+    io.observe(st);
+  }
 })();
 </script>
 </body>
