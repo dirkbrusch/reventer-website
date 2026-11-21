@@ -17,7 +17,7 @@ Förder- und Landesbanken, öffentlich-rechtliche Institute, IT-Dienstleister de
 ## Arbeitsweise und Grenzen
 
 - Fachliche Beratung, keine Rechtsdienstleistung; die rechtliche Bewertung liegt bei der Kanzlei des Auftraggebers.
-- KI-gestützte Prüfung gleichmäßiger Bewertungsstrenge, ausschließlich in der vom Auftraggeber freigegebenen Umgebung; die Entscheidung trifft der Auftraggeber.
+- KI-gestützte Bewertung mit einem festen Prüfschema aus dem bekanntgemachten Maßstab, angewendet ausschließlich in der vom Auftraggeber freigegebenen KI (z. B. Microsoft Copilot); Bieterunterlagen in keine andere KI; die Entscheidung trifft der Auftraggeber.
 - Referenzen nur anonymisiert, keine Kundennamen.
 
 ## Kontakt
