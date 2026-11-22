@@ -6,7 +6,7 @@
 
 - Zuschnitt und Wirtschaftlichkeit: Marktsondierung, Losbildung, Verfahrenswahl, Kostenmodell je Los, Business Case
 - Vergabe und Ausschreibung: EU-weite Vergaben nach GWB und VgV, Verhandlungsverfahren mit Teilnahmewettbewerb, Eignungs- und Zuschlagskriterien, Bewertung, Vergabeakte; fachliche Beiträge bei Rüge und Nachprüfung; Interimsvergaben; Ausschreibungen ohne Vergaberecht
-- Vertrag und Aufsicht: wesentliche Auslagerungen nach KWG und MaRisk, DORA-Anforderungen an IKT-Verträge, Maßnahmen nach Prüfungen gemäß § 44 KWG, EVB-IT
+- Vertrag und Aufsicht: wesentliche Auslagerungen nach KWG und MaRisk, DORA-Anforderungen an IKT-Verträge, Maßnahmen nach Prüfungen gemäß § 44 KWG
 - Transition: Providerwechsel, Insourcing, Datenmigration, ITSM
 - Steuerung: Vertrag und Dienstleister, Projekt- und Portfoliosteuerung (PMO), Status-, Budget- und Risikoreporting
 
@@ -24,5 +24,4 @@ Förder- und Landesbanken, öffentlich-rechtliche Institute, IT-Dienstleister de
 
 - Website: https://reventer.de/
 - E-Mail: dirk.brusch@reventer.de
-- LinkedIn: https://www.linkedin.com/in/dirkbrusch
 - Profil (PDF): https://reventer.de/Profil-Dirk-Brusch.pdf
